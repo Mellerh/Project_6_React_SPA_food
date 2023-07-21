@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Project_7_React_SPA_food/static/css/main.255a3bd4.css",
+    "main.js": "/Project_7_React_SPA_food/static/js/main.88ef58e5.js",
+    "index.html": "/Project_7_React_SPA_food/index.html",
+    "main.255a3bd4.css.map": "/Project_7_React_SPA_food/static/css/main.255a3bd4.css.map",
+    "main.88ef58e5.js.map": "/Project_7_React_SPA_food/static/js/main.88ef58e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.255a3bd4.css",
+    "static/js/main.88ef58e5.js"
+  ]
+}
