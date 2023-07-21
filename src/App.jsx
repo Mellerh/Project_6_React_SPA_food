@@ -14,7 +14,7 @@ function App() {
 
     return(
         <>
-            <BrowserRouter>
+            <BrowserRouter basename='/Project_7_React_SPA_food'>
 
                 <Header />
                 
