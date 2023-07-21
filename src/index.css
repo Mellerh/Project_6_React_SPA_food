@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2
+}
+
+h1 {
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* стилизуем нав-бар */
+.nav-wrapper {
+  /* text-align: center; */
+  padding: 0 4rem 0 4rem;
+}
+.logoName {
+  font-size: 2rem;
+}
+
+
+/* стилизуем основной контейнер. компонент Main */
+.content {
+  position: relative;
+  min-height: calc(100vh - 64px - 70px);  
+  padding: 2rem 0;
+}
+
+
+/* стилизуем отображения товаров по системе grid */
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* стилизуем карточку товара */
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(232, 232, 232, 0.971)
+}
+/* задаю кнопке расположение снизу */
+.card-content {
+  flex-grow: 1;
 }

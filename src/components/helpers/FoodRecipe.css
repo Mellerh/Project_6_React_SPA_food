@@ -1,0 +1,36 @@
+/* ОТДЕЛЬНО СТИЛИЗУЕМ СТРАНИЦУ С БЛЮДОМ */
+
+
+
+/* стилизуем картинку еды */
+.recipe-img {
+    max-width: 100%;
+}
+
+/* стилизуем рамку видео-ютуб */
+iframe {
+    width: 600px;
+    height: 350px;
+    max-width: 100%;
+}
+
+
+/* стилизуем заголовок h1 */
+h1 {
+    margin: 1rem 0 2rem 0rem;
+}
+
+
+/* стилизуем заголовок how-to-cook */
+.how-to-cook {
+    margin: 2rem 0 0rem 0rem;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+/* стилизуем надпись vidoe-recipe */
+.vidoe-recipe {
+    margin: 3rem 0 1rem 0rem;
+}
