@@ -25,6 +25,7 @@ code {
 }
 .logoName {
   font-size: 2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -47,9 +48,33 @@ code {
 .card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(232, 232, 232, 0.971)
+  background-color: rgba(232, 232, 232, 0.971);
+  /* border: 1px solid black; */
 }
 /* задаю кнопке расположение снизу */
 .card-content {
   flex-grow: 1;
 }
+.card-content p {
+  font-family: 'Roboto';
+} 
+
+/* названия блюд */
+.card-title {
+  font-family: 'Segoe UI';
+  border-bottom: 1px solid black;
+}
+
+
+
+/* адаптируем размер Лого под размер экрана */
+
+  @media (max-width: 515px) {
+    .logoName {
+      font-size: 4vw;
+    }
+
+    .home-about {
+      font-size: 3.5vw !important;
+    }
+  }

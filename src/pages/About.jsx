@@ -3,7 +3,7 @@ import '../components/helpers/AboutAstra.css'
 function About() {
 
     return (
-        <div className="content container">
+        <div>
             <div data-js="astro" class="astronaut">
                 <div class="head"></div>
                 <div class="arm arm-left"></div>
